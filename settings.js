@@ -22,7 +22,7 @@ global.mess = {
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 }
 
-global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.owner = [process.env.OWNER_NUMBER] || ['94704020146'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
 SESSION_ID: process.env.SESSION_ID || 'youre session id',
@@ -46,8 +46,8 @@ AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,    
-NUMBER_212_BLOCK: process.env.NUMBER_212_BLOCK || false  ,
+NUMBER_212_BLOCK: process.env.NUMBER_212_BLOCK || true  ,
 FOOTER: process.env.FOOTER ||  '©ＶＡＪＩＲＡ - ＭＤ - Ｖ4',
-LOGO: process.env.LOGO || `https://telegra.ph/file/f886a32767f0afa548d4e.jpg` ,
-IMAGE: process.env.IMAGE || `https://telegra.ph/file/5869dae011e0de48f36b9.jpg`     
+LOGO: process.env.LOGO || `https://telegra.ph/file/7003aea530ee232cd7ed4.jpg` ,
+IMAGE: process.env.IMAGE || `https://telegra.ph/file/7003aea530ee232cd7ed4.jpg`     
 };
